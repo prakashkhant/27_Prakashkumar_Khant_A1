@@ -1,0 +1,18 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "Node.js Scripts Example",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "test": "echo \"Test Successful\"",
+    "start": "node index.js",
+    "dev": "nodemon server.js",
+    "build": "echo \"Build Completed Successfully\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
